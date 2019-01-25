@@ -27,6 +27,9 @@
     "prettier": "^1.16.1",
     "react-test-renderer": "16.6.3"
   },
+  "rnpm":{
+    "assets":["./src/assets/fonts/"]
+  },
   "jest": {
     "preset": "react-native"
   }
