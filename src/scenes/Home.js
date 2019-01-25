@@ -1,13 +1,16 @@
 /* @flow */
 
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
+
+import { colors } from '../styles';
+import Header from '../components/Header';
 
 export default class Home extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>I'm the Home component</Text>
+        <Header />
       </View>
     );
   }
@@ -16,5 +19,6 @@ export default class Home extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: colors.white,
   },
 });
